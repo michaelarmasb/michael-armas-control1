@@ -2,7 +2,7 @@ name: auto-pr-dev-to-main (debug)
 
 on:
   push:
-    branches: ["DEV", "dev"]   # escucha dev y DEV
+    branches: ["dev","DEV"]   # escucha dev y DEV
   workflow_dispatch: {}
 
 # Repo Settings → Actions → Workflow permissions:
