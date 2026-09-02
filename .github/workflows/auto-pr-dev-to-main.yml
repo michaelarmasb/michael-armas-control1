@@ -14,7 +14,7 @@ permissions:
 
 env:
   BASE_BRANCH: main            # rama destino
-  KEYWORD: ["esan", "ESAN"]                  # palabra EXACTA requerida en algún commit
+  KEYWORD: ESAN                 # palabra EXACTA requerida en algún commit
   MIN_AHEAD: "1"               # dev debe estar >= MIN_AHEAD commits por delante de main
   PR_TITLE_PREFIX: "Promote"   # prefijo del título del PR
   PR_LABELS: "auto-pr,release" # etiquetas del PR (coma); vacío = ninguna
